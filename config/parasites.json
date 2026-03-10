@@ -1,0 +1,39 @@
+{
+  "parasites": [
+    {
+      "name": "Rat",
+      "damage": 4,
+      "imageName": "rat.png",
+      "targetPlants": ["Carrot", "Lettuce"],
+      "roundsToKill": 3
+    },
+    {
+      "name": "Crow",
+      "damage": 2,
+      "imageName": "crow.png",
+      "targetPlants": ["Sunflower", "Carrot", "Spinach", "Zucchini"],
+      "roundsToKill": 1
+    },
+    {
+      "name": "Locust",
+      "damage": 8,
+      "imageName": "locust.png",
+      "targetPlants": ["Pine"],
+      "roundsToKill": 3
+    },
+    {
+      "name": "Aphids",
+      "damage": 2,
+      "imageName": "aphids.png",
+      "targetPlants": ["Rose", "Tomato", "Lettuce", "Oak", "Maple", "Cedar", "Jasmine"],
+      "roundsToKill": 2
+    },
+    {
+      "name": "Slugs",
+      "damage": 4,
+      "imageName": "slugs.png",
+      "targetPlants": ["Lettuce", "Carrot", "Lily"],
+      "roundsToKill": 2
+    }
+  ]
+}

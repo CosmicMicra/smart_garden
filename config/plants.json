@@ -1,0 +1,142 @@
+{
+  "trees": [
+    {
+      "name": "Oak",
+      "waterRequirement": 20,
+      "growthRate": "Medium",
+      "currentImage": "smallOak.png",
+      "allImages": ["smallOak.png", "mediumOak.png", "largeOak.png"],
+      "temperatureRequirement": 65,
+      "vulnerableTo": ["Aphids"],
+      "healthSmall": 50,
+      "healthMedium": 100,
+      "healthFull": 150,
+      "dehydrationThresholdDays": 6,
+      "dehydrationDamagePerDay": 3
+    },
+    {
+      "name": "Maple",
+      "waterRequirement": 15,
+      "growthRate": "Medium",
+      "currentImage": "smallMaple.png",
+      "allImages": ["smallMaple.png", "mediumMaple.png", "largeMaple.png"],
+      "temperatureRequirement": 60,
+      "vulnerableTo": ["Aphids"],
+      "healthSmall": 50,
+      "healthMedium": 100,
+      "healthFull": 150,
+      "dehydrationThresholdDays": 5,
+      "dehydrationDamagePerDay": 3
+    },
+    {
+      "name": "Pine",
+      "waterRequirement": 10,
+      "growthRate": "Fast",
+      "currentImage": "smallPine.png",
+      "allImages": ["smallPine.png", "mediumPine.png", "largePine.png"],
+      "temperatureRequirement": 50,
+      "vulnerableTo": ["Locust"],
+      "healthSmall": 70,
+      "healthMedium": 140,
+      "healthFull": 210,
+      "dehydrationThresholdDays": 6,
+      "dehydrationDamagePerDay": 3
+    }
+  ],
+  "vegetables": [
+    {
+      "name": "Spinach",
+      "waterRequirement": 10,
+      "growthRate": "Fast",
+      "currentImage": "smallSpinach.png",
+      "allImages": [
+        "smallSpinach.png",
+        "mediumSpinach.png",
+        "largeSpinach.png"
+      ],
+      "temperatureRequirement": 50,
+      "vulnerableTo": [
+        "Slugs",
+        "Aphids",
+        "Crow"
+      ],
+      "healthSmall": 30,
+      "healthMedium": 60,
+      "healthFull": 90,
+      "dehydrationThresholdDays": 2,
+      "dehydrationDamagePerDay": 6
+    },
+    {
+      "name": "Zucchini",
+      "waterRequirement": 12,
+      "growthRate": "Fast",
+      "currentImage": "smallZucchini.png",
+      "allImages": ["smallZucchini.png", "mediumZucchini.png", "largeZucchini.png"],
+      "temperatureRequirement": 65,
+      "vulnerableTo": ["Slugs", "Aphids", "Crow"],
+      "healthSmall": 40,
+      "healthMedium": 80,
+      "healthFull": 120,
+      "dehydrationThresholdDays": 3,
+      "dehydrationDamagePerDay": 5
+    },
+    {
+      "name": "Carrot",
+      "waterRequirement": 10,
+      "growthRate": "Medium",
+      "currentImage": "smallCarrot.png",
+      "allImages": ["smallCarrot.png", "mediumCarrot.png", "largeCarrot.png"],
+      "temperatureRequirement": 60,
+      "vulnerableTo": ["Rat", "Slugs", "Crow"],
+      "healthSmall": 40,
+      "healthMedium": 50,
+      "healthFull": 65,
+      "dehydrationThresholdDays": 3,
+      "dehydrationDamagePerDay": 5
+    }
+  ],
+  "flowers": [
+    {
+      "name": "Tulip",
+      "waterRequirement": 8,
+      "growthRate": "Medium",
+      "currentImage": "smallTulip.png",
+      "allImages": ["smallTulip.png", "mediumTulip.png", "largeTulip.png"],
+      "temperatureRequirement": 55,
+      "vulnerableTo": ["Rat", "Aphids"],
+      "healthSmall": 35,
+      "healthMedium": 70,
+      "healthFull": 105,
+      "dehydrationThresholdDays": 2,
+      "dehydrationDamagePerDay": 6
+    },
+    {
+      "name": "Lily",
+      "waterRequirement": 10,
+      "growthRate": "Medium",
+      "currentImage": "smallLily.png",
+      "allImages": ["smallLily.png", "mediumLily.png", "largeLily.png"],
+      "temperatureRequirement": 60,
+      "vulnerableTo": ["Aphids", "Slugs"],
+      "healthSmall": 40,
+      "healthMedium": 80,
+      "healthFull": 120,
+      "dehydrationThresholdDays": 2,
+      "dehydrationDamagePerDay": 6
+    },
+    {
+      "name": "Rose",
+      "waterRequirement": 7,
+      "growthRate": "Medium",
+      "currentImage": "smallRose.png",
+      "allImages": ["smallRose.png", "mediumRose.png", "largeRose.png"],
+      "temperatureRequirement": 65,
+      "vulnerableTo": ["Aphids"],
+      "healthSmall": 35,
+      "healthMedium": 70,
+      "healthFull": 105,
+      "dehydrationThresholdDays": 2,
+      "dehydrationDamagePerDay": 6
+    }
+  ]
+}
