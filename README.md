@@ -166,7 +166,10 @@ smart_garden/
 │   └── ...
 └── pom.xml
 ```
+---
+## 🔄 Sequence Diagram
 
+![Sequence Diagram](./sequence_diagram.png)
 ---
 
 ## 📋 Headless API
